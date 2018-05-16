@@ -9,6 +9,8 @@
         <module name="spittr" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="spittr" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
