@@ -1,16 +1,16 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-<%@ page session="false" %>
+<%--
+  Created by IntelliJ IDEA.
+  User: ypiskov
+  Date: 17.05.2018
+  Time: 15:22
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>Spitter</title>
-  <link rel="stylesheet"
-        type="text/css"
-        href="<c:url value="/resources/style.css" />" >
+    <title>Title</title>
 </head>
 <body>
-<h1>Welcome to Spitter</h1>
-
-<a href="<c:url value="/spittles" />">Spittles</a> |
-<a href="<c:url value="/spitter/register" />">Register</a>
+Hellow world internal
 </body>
 </html>
